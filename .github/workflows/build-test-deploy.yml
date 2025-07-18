@@ -23,5 +23,4 @@ jobs:
         with:
           node-version: '18.x'
       - run: npm install
-      - run: npm i -D eslint babel-eslint eslint-config-airbnb eslint eslint-plugin-jsx-a11y eslint-plugin-import eslint-plugin-react eslint-plugin-react-hooks
       - run: npm test
